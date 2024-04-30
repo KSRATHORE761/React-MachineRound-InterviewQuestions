@@ -1,0 +1,45 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    row-gap: 10px;
+}
+
+.title{
+    font-size: larger;
+    font-weight: 700;
+}
+
+.app > input{
+    height: 22px;
+}
+
+.tenure{
+   display: flex; 
+   justify-content: space-between;
+}
+
+.tenure > button{
+    background-color:rgb(190, 182, 182);
+    font-weight: 800;
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px;
+    border:none;
+}
+.lables{
+    font-size: larger;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+}
+
+.selected {
+    background-color: #009ad6 !important;
+    color: white;
+  }
+  .loan__downpayment{
+    font-size: larger;
+    font-weight: 700;
+    text-decoration: underline;
+  }
