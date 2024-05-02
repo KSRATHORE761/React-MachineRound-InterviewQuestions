@@ -28,7 +28,7 @@ function EmiCalculator() {
   // }
 
   const totalDownPayment = () =>{
-    return  (Number(downPayment) + (cost - downPayment) * (processingFee / 100)).toFixed(0);
+    return  (Number(downPayment) + (cost) * (processingFee / 100)).toFixed(0);
   }
 
   const totalLoanAmount =()=>{
