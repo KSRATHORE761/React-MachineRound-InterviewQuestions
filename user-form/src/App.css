@@ -1,0 +1,45 @@
+.app{
+  width: 600px;
+  margin: 0px auto;
+  padding: 30px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+.label{
+  font-size: 25px;
+  margin-top: 15px;
+}
+input{
+ height: 40px;
+ border:none;
+ background-color: hwb(0 87% 13%);
+ border-radius: 10px;
+}
+
+button{
+  height: 50px;
+  margin-top:10px;
+  background-color: rgb(77, 65, 245);
+  color:white;
+  font-size: 20px;
+  border: none;
+}
+.btn__cancel{
+  background-color: rgb(208, 81, 81);
+  color:white;
+  font-size: 20px;
+  border: none;
+
+}
+
+.errormsg{
+  color: red;
+}

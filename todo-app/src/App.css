@@ -1,0 +1,52 @@
+.todolist{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tasks__header{
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight:700;
+  border: 1px solid;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin-bottom: 8px;
+  border: 1px solid gray;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+ }
+ .todo-item p {
+  color: #888;
+  font-size: 20px;
+  
+ }
+
+ .checked{
+   text-decoration: line-through;
+ }
+
+ .todo-item button{
+  font-size: 30px;
+
+ }
+.todolist__add>input{
+  width: 500px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.todolist__add button{
+  width: 90px;
+  height: 45px;
+  font-size: 20px;
+  background-color: #24a0ed;
+  color:white;
+  border:none;
+}
